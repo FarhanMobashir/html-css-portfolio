@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Component Library</title>
+  </head>
+  <body>
+    <h1>Mobashir's component library</h1>
+    <p>
+      I am attending neog.camp and I want to make a library which would make all
+      of my projects look good and consistent
+    </p>
+    <hr />
+    <h2>@typography</h2>
+    <h1>This is the biggest heading.</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>
+      Let me show you the normal text. This is free flowing and will wrap at the
+      end like a paragraph
+    </p>
+    <small>This is relatively small text.</small>
+    <hr />
+    <h2>@containers</h2>
+    <h3>Fluid Container</h3>
+    <div class="container">
+      This is a fluid container and it will go till the end of the page
+    </div>
+    <h3>Center Container</h3>
+    <div class="container container-center">
+      This is a center container and it will go till the specified width
+    </div>
+    <hr />
+    <h2>@links</h2>
+    <a class="link primary-link" href="#">Primary Links</a>
+    <a class="link secondary-link" href="#">Secondary Links</a>
+    <hr />
+    <h2>@lists</h2>
+    <h3>Unordered Lists</h3>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">One</li>
+      <li class="list-item-inline">Two</li>
+      <li class="list-item-inline">Three</li>
+    </ul>
+    <h3>Unordered Inline Lists</h3>
+    <ul class="list-non-bullet">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+    <h3>Reverse Ordered Lists</h3>
+    <ol reversed>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ol>
+    <hr />
+    <h2>@nav</h2>
+    <nav class="navigation container">
+      <div class="nav-brand">IamBrand</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">Products</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">About</a>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+    <h2>@header</h2>
+    <header class="hero">
+      <img class="hero-img" src="../images/hero.svg" alt="hero image" />
+      <h1 class="hero-heading">Heading inside header</h1>
+    </header>
+    <hr />
+    <h2>@section</h2>
+
+    <section class="section">
+      <div class="container container-center">
+        <h1>White section</h1>
+        <p>
+          Color Picker: Use the color picker by clicking and dragging the
+          markers around the palette. The color selections are shown together
+          with their Hex code values in the boxes below the palette. The color
+          picker will also display the colors to different formats (i.e., HEX,
+          RGB, HS,HSL,CMYK).
+        </p>
+      </div>
+    </section>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Off-White section</h1>
+        <p>This will have grey background</p>
+      </div>
+    </section>
+    <hr />
+    <h3>@footer</h3>
+    <footer class="footer container">
+      <div class="footer-heading">Small heading inside footer</div>
+      <ul class="list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="/">socialOne</a></li>
+        <li class="list-item-inline"><a class="link" href="/">socialTwo</a></li>
+        <li class="list-item-inline">
+          <a class="link" href="/">socialThree</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
